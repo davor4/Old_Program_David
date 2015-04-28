@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/David/Documents/AAA_Universidad/3 TERCER AÑO 2011-2012/Universidad PRIMAVERA-2012/Programacion Avanzada de Aplicaciones/Laboratorio/P3/P3_InterfazGrafica_v2_final_FUNCIONA/paa.correo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/David/Documents/AAA_Universidad/3 TERCER AÑO 2011-2012/Universidad PRIMAVERA-2012/Programacion Avanzada de Aplicaciones/Laboratorio/P3/P3_InterfazGrafica_v2_final_FUNCIONA/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
