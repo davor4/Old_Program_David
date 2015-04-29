@@ -186,16 +186,16 @@ public class IntefazGrafica extends JFrame {
 		
 		//3Gestores de posicion == Manage positions
 		this.setLayout(new BorderLayout());
-		//Norte
+		//Norte == North
 		this.add(toolBar,BorderLayout.NORTH);
-		//Sur
+		//Sur == South
 		JPanel aux2;
 		aux2=new JPanel();
 		aux2.setBackground(Color.lightGray);
 		aux2.setLayout(new FlowLayout(FlowLayout.LEFT));
 		aux2.add(l);
 		this.add(aux2,BorderLayout.SOUTH);
-		//Centro
+		//Centro == Center
 		this.add(split2);
 		
 		//Eventos de la ventana principal == Events in main window
@@ -241,10 +241,10 @@ public class IntefazGrafica extends JFrame {
 	
 	/**
 	 *==English== 
-	 * Method creates to charge a store that already exists (bin file)
+	 * Method loads a store that already exists (bin file)
 	 *==Spanish==
 	 * Metodo creado para cargar un almacen de fichero binario.
-	 * @param nombreFichero - nombre del fichero binario que se quiere recuperar. // file that we want to charge.
+	 * @param nombreFichero - nombre del fichero binario que se quiere recuperar. // file that we want to load.
 	 * @return mapaRecuperado - contendrá el almacen si se ha recuperado correctamente, null si no. // True if success, false if not.
 	 */
 	public IAlmacenCorreo recuperar(String nombreFichero){
@@ -276,7 +276,7 @@ public class IntefazGrafica extends JFrame {
 	
 	/**
 	 *==English== 
-	 * Method creates to save a store (bin file)
+	 * Method to save the current entries to a file, so as to be read at the next open of application (bin file)
 	 *==Spanish==
 	 * Metodo creado para guardar un archivo binario
 	 * @param nombreFichero - es el nombre con el que se guardará el archivo. // file that we want to save.
